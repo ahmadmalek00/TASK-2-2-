@@ -1,0 +1,172 @@
+*{
+margin: 0 0;
+padding: 0 0;
+font-size: 16px;
+}
+.navbar1{
+width: 100%;
+background-color: black;
+height: 20px;
+padding: 5px 0px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.links{
+color: white;
+text-decoration: none;
+}
+.links:hover{
+    background-color: white;
+    color: grey;
+}
+.photo1{
+width: 100%;
+height: 100vh;
+
+}
+.content1{
+    position: relative;
+}
+.parag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: absolute;
+color: white;
+font-size: 20px;
+}
+
+.content2{
+    display: flex;
+align-items: center;
+width: 60%;
+margin: 0px auto;
+     flex-direction: column; 
+}
+.content2 h1{
+
+background-color: black;
+color: white;
+margin:35px 0px ;
+font-weight: 500;
+}
+.content2 p{
+color: rgb(126, 119, 119);
+margin: 10px 0px;
+}
+.content3 {
+
+margin: 20px 270px;
+}
+.content3 img{
+height: 300px;
+width: 800px;
+margin: 10px 0px;
+}
+.content3 p{
+margin: 20px 0px;
+color: rgb(126, 119, 119);
+}
+.content3 b{
+color: black;
+margin: 5px;
+}
+.content4 nav {
+display: flex;
+justify-content: space-around;
+border: 2px solid black;
+width: 59%;
+margin: 0px 270px;
+background-color: grey;
+}
+.content4 .links2{
+text-decoration: none;
+color: white;
+}
+.parag4{
+    border: 2px solid black;
+    width: 59%;
+height: 400px;
+    margin: 0px 270px;
+}
+.z{
+    margin: 15px 10px;
+}
+.x{
+margin: 15px 10px;
+color: rgb(126, 119, 119);
+}
+.content4 h1{
+    background-color: black;
+    color: white;
+    margin:35px 0px ;
+    font-weight: 500;
+    width: 80px;
+    margin: 30px 600px;
+}
+.content5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content5 img{
+    height: 400px;
+    width: 800px;
+    margin: 20px 270px;
+}
+.content5 p{
+    margin: 10px 270px;
+    color: rgb(126, 119, 119);
+}
+.content5 h1{
+    background-color: black;
+    color: white;
+    margin:35px 0px ;
+    font-weight: 500;
+    width: 150px;
+    margin: 30px 600px;
+}
+.content6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content6 p{
+    margin: 5px 270px;
+    color: rgb(95, 92, 92);
+}
+.content6 img{
+    height: 400px;
+    width: 800px;
+    margin: 5px 270px;
+}
+.parag6 p b{
+    color: white;
+    background-color: black;
+}
+.content6 input{
+    height: 40px;
+    margin: 5px 270px;
+    padding: 5px 8px;
+}
+.content6 button{
+    width: 150px;
+    height: 40px;
+    margin: 5px 270px;
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(226, 226, 226);
+    color: rgb(95, 92, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p a {
+    color: rgb(95, 92, 92);
+}
+
